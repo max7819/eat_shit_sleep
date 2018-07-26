@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <title>MUSIC_ARCHIVE</title>
+  <meta charset="utf-8">
+  <style>
+    * {
+      text-align: center;
+    }
+    img {
+      max-width: 300px
+    }
+    a {
+      color : black;
+      text-decoration: none;
+    }
+    div {
+      border : 3px black;
+    }
+    h1 {
+      font-size : 45px;
+      border-bottom: 1px solid black;
+      padding : 20px;
+    }
+    #grid {
+      display : grid ;
+      grid-template-columns: 160px 1fr
+    }
+    .horizonal_grid {
+      display : grid;
+      grid-template-rows: 1fr 1fr 1fr
+    }
+    .vertical_grid {
+      display : grid;
+      grid-template-columns: 1fr 1fr 1fr
+
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html"
+        style="text-decoration:none;color:black">EAT_SHIT_SLEEP</a></h1>
+  <div id='grid'>
+    <div>
+      <ol>
+      <li><a href='music_archive.html'>music archive</a></li>
+      <li><a href='daily_archive.html'>daily archive</a></li>
+      </ol>
+    </div>
+    <div class='horizonal_grid'>
+      <div class='vertical_grid'>
+          <div><img src="./daily_archive/img_a1.jpg"></div>
+          <div><img src="./daily_archive/img_a2.jpg"></div>
+          <div><img src="./daily_archive/img_a3.jpg"></div>
+      </div>
+      <div class='vertical_grid'>
+          <div><img src="./daily_archive/img_b1.jpg"></div>
+          <div><img src="./daily_archive/img_b2.jpg"></div>
+          <div><img src="./daily_archive/img_b3.jpg"></div>
+      </div>
+      <div class='vertical_grid'>
+          <div><img src="./daily_archive/img_c1.jpg"></div>
+          <div><img src="./daily_archive/img_c2.jpg"></div>
+          <div><img src="./daily_archive/img_c3.jpg"></div>
+      </div>
+  </div>
+</body>
+</html>
